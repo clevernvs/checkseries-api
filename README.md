@@ -30,45 +30,50 @@ Atráves do uso desta API é possível:
 
 # Como fazer a utilização deste projeto
 
-Clone o repositório para o repositório local
+1. Clone o repositório para o repositório local
 ~~~~
 git clone https://github.com/clevernvs/checkseries-api.git
 ~~~~
 
-Crie o arquivo .env
+2. Crie o arquivo .env
 ~~~~
 cp .env.example .env
 ~~~~
 
-Suba os containers do projeto
+3. Suba os containers do projeto
 ~~~~
 docker-compose up -d
 ~~~~
 
-Acesse o container
+4. Acesse o container
 ~~~~
 docker-compose exec app bash
 ~~~~
 
-Instale as dependências do projeto
+5. Instale as dependências do projeto
 ~~~~
 composer install
 ~~~~
 
-Gere a key do projeto
+6. Gere a key do projeto
 ~~~~
 php artisan key:generate
 ~~~~
 
 
-Acesse o projeto
-[http://localhost:8180](http://localhost:8180)
+7. Acesse o projeto em: [http://localhost:8989](http://localhost:8989)
 
 # Implementações Futuras
+Projeto ainda em definição.
 
 # Nosso(s) Colaborador(es)
-- Desenvolvido por Cleverton Neves @clevernvs
+- Desenvolvido por Cleverton Neves ( [github] | [twitter] )
 
 # Status do projeto
 
 Versão beta
+
+
+<!-- Links -->
+[github]: https://github.com/clevernvs
+[twitter]: https://twitter.com/cleverbneves
